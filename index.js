@@ -2,7 +2,7 @@ import express from "express"
 import dotenv from "dotenv"
 import morgan from "morgan"
 import cors from "cors"
-import chat from "./routes/chat.js"
+import chat from "./src/routes/chat.js"
 
 dotenv.config()
 
